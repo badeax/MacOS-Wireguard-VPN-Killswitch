@@ -45,3 +45,5 @@ bash
 Copy code
 sudo ./vpn-killswitch.sh
 You will be prompted to enter your macOS user password.
+
+Current Limitations: You must use the unkillswitch.sh or sudo pfctl -d to stop blocking all traffic. Be my guest if someone can figure out a way to implement both.
