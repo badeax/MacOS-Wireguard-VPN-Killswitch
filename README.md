@@ -1,6 +1,6 @@
 # Wireguard-VPN-Killswitch
 
-VPN Killswitch Script
+MacOS Wireguard VPN Killswitch Script
 
 This Bash script is designed to act as a VPN killswitch by maintaining strict control over network traffic when using the WireGuard VPN on a macOS system. It leverages the macOS firewall utility, pfctl, to ensure that only traffic routed through the specified WireGuard VPN interface is allowed, blocking all other traffic when the VPN connection is inactive.
 
