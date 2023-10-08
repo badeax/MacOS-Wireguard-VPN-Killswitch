@@ -21,6 +21,7 @@ A macOS system.
 WireGuard installed and configured with a VPN profile.
 Administrative privileges (sudo access).
 Basic familiarity with using the Terminal in macOS.
+
 Step 2: Download the Script
 
 You can download the script from GitHub or copy its contents and create a new file on your system using a text editor (e.g., vpn-killswitch.sh).
@@ -30,6 +31,7 @@ Step 3: Customize the Script
 Open the script in a text editor and make the following customizations:
 
 Set the VPN_INTERFACE variable to match the name of your WireGuard VPN interface (e.g., "utun0").
+
 Step 4: Make the Script Executable
 
 Open Terminal and navigate to the directory where you saved the script. Use the chmod command to make the script executable:
@@ -37,6 +39,7 @@ Open Terminal and navigate to the directory where you saved the script. Use the 
 bash
 Copy code
 chmod +x vpn-killswitch.sh
+
 Step 5: Run the Script
 
 Execute the script with administrative privileges using sudo:
